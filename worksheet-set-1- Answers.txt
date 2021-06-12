@@ -1,0 +1,75 @@
+Python Worksheet 1 
+
+1. - C
+2. - B
+3. - C
+4. - A
+5. - D
+6. - C
+7. - A
+8. - C
+9. - A,C
+10. - A,B
+
+Statistics Worksheet 1
+
+1. - A
+2. - A
+3. - B
+4. - D
+5. - C
+6. - B
+7. - B
+8. - A
+9. - C
+10. Normal Distribution is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. 
+In graph form, it represents the distribution of many random variables as a symmetrical bell-shaped graph.
+
+11. Ways to handle missing data :
+1. Deleting Rows
+2. Replacing With Mean/Median/Mode which is Mean or Median Imputation- This can be useful in cases where the number of missing observations is low. 
+However, for large number of missing values, using mean or median can result in loss of variation in data
+3. Multivariate Imputation by Chained Equations (MICE) Imputation -To set up the data for MICE, it is important to note that the algorithm uses all the variables in the data for predictions.
+In this case, variables that may not be useful for predictions, like the ID variable, should be removed before implementing this algorithm.
+4. Random Forest imputation-
+One caveat is that random forest works best with large datasets and using random forest on small datasets runs the risk of overfitting. The extent of overfitting leading to inaccurate
+imputations will depend upon how closely the distribution for predictor variables for non-missing data resembles the distribution of predictor variables for missing data.
+5. K-nearest neighbour (KNN) imputation - is recommended
+
+12.A/B testing is a basic randomized control experiment. It is a way to compare the two versions of a variable to find out which performs better in a controlled environment.
+It is a hypothetical testing methodology for making decisions that estimate population parameters based on sample statistics. 
+ 
+13. Mean imputation is the replacement of a missing observation with the mean of the non-missing observations for that variable. Mean imputation is not reccomended due to the below 
+factors:
+1.If just estimating means: mean imputation preserves the mean of the observed data
+2.Leads to an underestimate of the standard deviation
+3.Distorts relationships between variables by “pulling” estimates of the correlation toward zero
+
+14. Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is considered to be a dependent variable.
+Linear regression has the formula Y= mx+c where Y is the dependent variable, x is the explanatory variable , m is the slope and c is the coefficient.
+
+15.Two main branches of statistics are Descriptive and Inferential Statistics.
+
+
+
+Machine Learning Worksheet 1
+
+1. - A
+2. - C
+3. - B
+4. - C
+5. - B
+6. - A
+7. - A
+8. - A
+9. - A,B
+10. - A,C
+11. - C,D
+12. We can use Batch Gradient Descent, Stochastic Gradient Descent or Mini Batch gradient descent. If the number of training data is huge, batch gradient descent is computationally expensive.
+Hence, it wouldn’t be preferred to use batch gradient descent when the dataset is large.
+In such cases, if the number of training examples is large, then stochastic gradient descent or mini-batch gradient descent is preferred.
+Mini batch gradient descent works well with large training examples in reduced number of iterations.
+
+13.The normal equations method does not require normalizing the features, so it remains unaffected by features in the training set having very different scales.
+Feature scaling is required for the various gradient descent algorithms. Feature scaling will help gradient descent converge quicker.
+
